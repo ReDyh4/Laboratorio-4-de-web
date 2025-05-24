@@ -1,0 +1,67 @@
+form#form-correo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+#form-correo select,
+#form-correo input,
+#form-correo textarea {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+#form-correo select:focus,
+#form-correo input:focus,
+#form-correo textarea:focus {
+  border-color: #4361ee;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.1);
+}
+
+#form-correo textarea {
+  min-height: 200px;
+  resize: vertical;
+}
+
+.botones {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.botones a {
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.9rem;
+}
+
+.botones a:first-child {
+  background-color: #6c757d;
+  color: white;
+}
+
+.botones a:first-child:hover {
+  background-color: #5a6268;
+}
+
+.botones a:last-child {
+  background-color: #4361ee;
+  color: white;
+}
+
+.botones a:last-child:hover {
+  background-color: #3a0ca3;
+}

@@ -1,0 +1,62 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #4361ee;
+  color: white;
+  padding: 0.8rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #eee;
+  color: #495057;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Estilos para los correos individuales */
+.correo {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-correo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.info-correo h5 {
+  margin: 0;
+  color: #212529;
+  font-size: 0.95rem;
+}
+
+.correo p {
+  color: #495057;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.9rem;
+}
